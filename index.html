@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Operações Matematica </title>
+	<script src="./operacoes.js"></script>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<center>
+		
+		<form name="dados">
+
+			<h1>Operações</h1>
+
+			<div class="entrada">
+				<div class="entradaFilho">
+					<label for="">Primeiro Número</label>
+					<input id="idnum1" type="number" name="n1">
+				</div>
+				<div class="entradaFilho">
+					<label for="">Segundo Número</label>
+					<input id="idnum2" type="number" name="n2">
+				</div>
+
+			</div>
+
+			<div class="botoes">
+				<input class="button" type="button" value="+" onclick=adicao()></input>
+				<input class="button" type="button" value="-" onclick=sub()></input>
+				<input class="button" type="button" value="x" onclick=mult()></input>
+				<input class="button" type="button" value="/" onclick=div()></input>
+				<input class="button" type="button" value="^" onclick=pot()></input>
+			</div>
+			<input placeholder="resultado" type="text" name="resul" id="resul">
+			<input class="apagar" type="reset" name="limpar" value="LIMPAR">
+
+		</form>
+		<footer>
+			<div class="rodape"><br>
+				<p>Desenvolvido por Bianca de Faria Silva </p>
+				<p>RA: 1140482022032</p><br>
+			</div>
+		</footer>
+	</center>
+</body>
+
+</html>
